@@ -51,7 +51,7 @@ def ingest_data():
     dataframe = pd.DataFrame()
     dataframe['cluster'] = numeros
     dataframe['cantidad_de_palabras_clave'] = cantidades
-    dataframe['porcentaje_de_palabras_clave'] = cantidades
+    dataframe['porcentaje_de_palabras_clave'] = porcentajes
     dataframe['principales_palabras_clave'] = categories
 
     return dataframe
